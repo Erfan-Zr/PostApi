@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'post-api';
+  adder = false;
+  addPost() {
+    this.adder = !this.adder;
+  }
+  ngOnInit(): void {
+
+  }
 }

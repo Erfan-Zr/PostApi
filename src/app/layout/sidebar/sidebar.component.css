@@ -1,0 +1,10 @@
+.sidebar {
+  width:200px;
+}
+
+.links {
+  cursor: pointer;
+}
+.links :hover {
+  color: rgb(233, 128, 0);
+}

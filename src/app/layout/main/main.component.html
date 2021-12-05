@@ -1,0 +1,19 @@
+<div class="all-posts" fxLayout="row" fxlayoutgap="25px grid" fxflexfill>
+  <div *ngFor="let post of posts" class="posts-container">
+    <div fxLayout="row"> 
+      <img src="https://www.svgrepo.com/show/303859/unselected-user.svg" class="profile-image">    
+      <h3 >{{post.user}}</h3>
+      <img class="ticker" *ngIf="post.isAdmin" src="https://www.trollishly.com/wp-content/uploads/2021/07/Get-Free-Eligibility-Check.png">
+      
+      <div fxLayoutAlign="end">
+
+        <button (click)="openEditor(post)">Edit</button></div>
+
+        <button (click)="deletePost(post)">Delete</button>
+
+    </div>
+   
+    <p>{{post.post}}</p>
+  </div>
+</div>
+

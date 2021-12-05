@@ -1,0 +1,13 @@
+
+<p>Hello there</p>
+<form (ngSubmit)="updateTask()">
+  <label for="username">Name :</label>
+  <input type="text" name="username" id="username" [(ngModel)]="selectedPost.user" placeholder="Enter your username">
+  <label for="post">Post :</label>
+  <input type="text" name="post" id="post" [(ngModel)]="selectedPost.post" placeholder="Enter your Post" >
+  <label for="isAdmin">Is Admin :</label>
+  <input class="ckecker" type="checkbox" name="isAdmin" [(ngModel)]="selectedPost.isAdmin" id="isAdmin">
+  <br>
+  <p>{{selectedPost.id}}</p>
+  <input type="submit" value="Save Post" [mat-dialog-close]="selectedPost">
+</form>

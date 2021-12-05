@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "Masome",
+      "isAdmin": true,
+      "post": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your applications.",
+      "comments": ""
+    },
+    {
+      "id": 2,
+      "user": "Ehsan",
+      "isAdmin": true,
+      "post": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your applications.",
+      "comments": ""
+    },
+    {
+      "id": 3,
+      "user": "Asqar",
+      "isAdmin": false,
+      "post": "High-explosive anti-tank (HEAT) is a type of shaped charge explosive that uses the Munroe effect to penetrate heavy armor. The warhead functions by having an explosive charge collapse a metal liner inside the warhead into a high-velocity superplastic jet; this superplastic jet is capable of penetrating armor steel to a depth of seven or more times the diameter of the charge (charge diameters, CD).",
+      "comments": ""
+    },
+    {
+      "id": 4,
+      "user": "Asqar",
+      "isAdmin": false,
+      "post": "High-explosive anti-tank (HEAT) is a type of shaped charge explosive that uses the Munroe effect to penetrate heavy armor. The warhead functions by having an explosive charge collapse a metal liner inside the warhead into a high-velocity superplastic jet; this superplastic jet is capable of penetrating armor steel to a depth of seven or more times the diameter of the charge (charge diameters, CD).",
+      "comments": ""
+    },
+    {
+      "id": 93790250
+    }
+  ]
+}
